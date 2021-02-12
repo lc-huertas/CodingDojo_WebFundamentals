@@ -1,0 +1,61 @@
+<html>
+<header>
+
+</header>
+<body>
+    <h1>My Regristration Form</h1>
+    <form action="process.php" method="post">
+        <label for="first_name">First Name:  
+            <input type="text" id="first_name"  name ="first_name">
+        </label>
+        <div>
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name"  name ="last_name">
+        </div>
+        <div>
+            <label for="email">Email: </label>  
+            <input type="text" id="email"  name ="email">
+        </div>
+        <div>
+            <label for="password">Password: </label>
+            <input type="password" id="password" name="password">
+        </div>
+        <div>
+            <label for="pwd_confirm">Confirm: </label>
+            <input type="password" id="pwd_confirm" name="pwd_confirm">
+        </div>
+
+        <div>
+            <label for="date_selection">Birthday:</label>
+            <input type="date" id="date_selection" name="date_selection">   
+        </div>
+
+        <div>
+            <p>Select your gender:</p>
+            <label for="male">Male</label>
+            <input type="radio" id="male" name="gender" value="male">
+
+            <label for="female">Female</label>
+            <input type="radio" id="female" name="gender" value="female">
+            
+            <label for="decline">Prefer not to say</label>
+            <input type="radio" id="decline" name="gender" value="decline">
+        </div>
+        
+        <div>
+            <p>Say a few words about yourself:</p>
+            <textarea name="description"></textarea>
+        </div>
+        <div>
+        <label for="Language">Favorite Language: </label>
+            <select name="Language">
+                <option value="Javascript">Javascript</option>
+                <option value="Python">Python</option>
+                <option value="C++">C++</option>
+            </select>
+            
+        </div>
+    </form>
+</body>
+
+</html>
