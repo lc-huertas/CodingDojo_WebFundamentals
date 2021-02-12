@@ -1,8 +1,93 @@
 <html>
     <head>
-        
+        <meta charset="urf-8">
+        <title>3D Printing Materials</title>
+        <meta name="description" content="Quick overview of different types of 3D printers.">
     </head>
     <body>
+        <h1>Quick Overview of commonly used 3D Printing Materials!</h1>
+        <img src="3D_Printing.png" alt="A zoomed in picture of a 3D printer's extruder.">
+        <p>One of the largest advantages of 3D printing comes from being able to leverage different material properties. We'll be reviewing some of the common materials used by consumer-level printers. This will help you get an idea of what options you have as a designer for utilizing these materials as well as consider some of the challenges that come from trying to print them.</p>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Material</th>
+                    <th>Strength</th>
+                    <th>Cost/Spool</th>
+                    <th>Printability</th>
+                    <th>Unique Characteristic</th>
+                    <th>Example Applications</th>
+                </tr>
+                <tbody>
+                    <tr>
+                        <td>PLA</td>
+                        <td>Weak</td>
+                        <td>$11</td>
+                        <td>Easy</td>
+                        <td>Cheap</td>
+                        <td>Prototypes</td>
+                    </tr>
+                    <tr>
+                        <td>PETG</td>
+                        <td>Strong</td>
+                        <td>$20</td>
+                        <td>Intermediate</td>
+                        <td>Resist surface wear</td>
+                        <td>Mounths/Fixtures</td>
+                    </tr>
+                    <tr>
+                        <td>TPU</td>
+                        <td>Strong</td>
+                        <td>$32</td>
+                        <td>Difficult</td>
+                        <td>Flexible</td>
+                        <td>Gaskets</td>
+                    </tr>
+                </tbody>
+            </thead>
+        </table>
+        <h2>Consumer-level printers</h2>
+        <ul>
+            <li><a href = "https://shop.prusa3d.com/"> Prusa i3</a></li>
+            <li><a href = "https://store.makerbot.com/">MakerBot</a></li>
+            <li><a href = "https://markforged.com/">MarkForged</a></li>
+            <li><a href = "https://creality3d.shop/">Creality</a></li>
+        </ul>
+        
+        <form action="process.php" method="post">
+            <h3>Please take this short survey</h3>
+            <div>
+                <label for="Email">Email Address: </label>
+                <input type="text" id="Email" name="Email">
+            </div>
+            <div>
+                <br>
+                <input type="radio" id="subscribe" name="subscribe" value="subscribe">
+                <label for="subscribe">I'd like to subscribe</label>
+                <br>
+                <input type="radio" id="no_subscribe" name="no_subscribe" value="no_subscribe">
+                <label for="no_subscribe">I'd rather not subscribe</label>
+            </div>
+            <h4>How did we hear about us?</h4>
+            <div>
+                <input type="checkbox" id="Facebook" name="Facebook">
+                <label for="Facebook">Facebook</label>
+            </div>
+            <div>
+                <input type="checkbox" id="Newspaper" name="Newspaper">
+                <label for="Newspaper">Newspaper</label>
+            </div>
+
+            <div>
+                <input type="checkbox" id="Referral" name="Referral">
+                <label for="Referral">Referral</label>
+            </div>
+
+            <div>
+                <input type="button" value="Submit">
+            </div>
+        </form>
 
     </body>
 </html>
