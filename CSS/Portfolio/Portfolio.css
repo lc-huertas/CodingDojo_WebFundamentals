@@ -1,0 +1,149 @@
+.container *{
+    /*outline: 2px dotted black; */
+    font-family:sans-serif;
+}
+.container{
+    width: 1000px;
+    min-height: 900px;
+    margin: 0px auto;
+    background-image: radial-gradient(rgb(119, 86, 99), rgb(65, 62, 62));
+    outline: 2px solid black;
+}
+.Header{
+    min-height: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    margin: 0px 0px 25px 0px;
+}
+.Header h1{
+    display: inline-block;
+    width: 350px;
+    padding: 0px 10px;
+    font-size: 50px;
+    margin: 10px 0px;
+    font-family:cursive;
+}
+.Header h2{
+    display: inline-block;
+    font-size: 25px;
+    margin:0px 25px 0px 0px;
+    font-weight: bold;
+}
+.Top{
+    min-height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Top .MyPicture{
+    display: inline-block;
+    width: 425px;
+    vertical-align: top;
+    margin: 15px 15px 15px 25px;
+    border: 10px solid #ddd;
+    border-radius: 4px;
+}
+.Top .About_Me{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 17px;
+    margin: 15px 25px 15px 15px;
+}
+.Top p{
+    margin: 0px 0px;
+    padding:5px;
+    min-height: 220px;
+}
+.Main{
+    min-height: 100px;
+    display: flex;
+    justify-content:space-evenly;
+    margin: 20px 0px;
+}
+.Bottom{
+    min-height: 75px;
+    background-color: whitesmoke;
+    margin: 0px 0px;
+}
+.Bottom ul{
+    display: flex;
+    justify-content:center;
+    list-style-type: none;
+    padding: 0px 0px 10px 10px;
+}
+.Bottom ul li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Bottom ul li a{
+    margin:5px;
+    color: black;
+}
+.Bottom h1{
+    text-align: center;
+    font-size: 20px;
+    margin: 0px 0px;
+    padding: 10px 0px 0px 0px;
+    font-weight: lighter;
+}
+.Bottom ul li a{
+    font-size: 20px;
+}
+.Top .About_Me p{
+    background-image: linear-gradient(to top right,#f1f1f1,#f0f0f0,rgb(232, 196, 233));
+    padding: 5px 5px;
+}
+.Top h2,.Content h1,.Content h2{
+    background-color: #8f8d99;
+    background-image: linear-gradient(rgb(172, 172, 172), #7a7883, rgb(172, 172, 172));
+    padding: 10px 10px;
+    margin: 0px 0px;
+    color: white;
+}
+.Content{
+    width: 300px;
+    vertical-align: top;
+    background-image: linear-gradient(to top right,#f1f1f1,#f0f0f0,rgb(232, 196, 233));
+}
+.Content h1, .Content h2{
+    font-size: 20px;
+}
+.Content ul{
+    padding-inline-start: 30px;
+}
+.Content ul li{
+    display: inline-block;
+}
+.ContentPic1{
+    width: 300px;
+    height: 150px;
+}
+.ContentPic2{
+    width: 45px;
+    height: 45px;
+}
+.ContentPic3{
+    width: 30px;
+    height: 30px;
+}
+.Content p{
+    min-height: 200px;
+    padding: 0px 10px;
+}
+section{
+    width: fit-content;
+    text-align: center;
+    background-color: rgb(21, 114, 70);
+    color: white;
+    border-radius: 10px;
+    border: 2px black;
+    padding: 10px 10px;
+    margin: 15px auto;
+    box-shadow: 5px 5px 5px grey;
+}
+Spam{
+    text-decoration-line: underline;
+}
