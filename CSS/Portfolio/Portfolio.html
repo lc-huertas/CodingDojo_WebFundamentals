@@ -2,26 +2,23 @@
 <html>
 <head>
     <style type="text/css">
-        *{
+        .container *{
             outline: 2px dotted black;
-            padding: 10px;
+            margin: 5px 5px;
+            
         }
         .container{
-            width: 800px;
-            height: 800px;
+            width: 1000px;
+            min-height: 900px;
             margin: 0px auto;
+            background-color: rgb(116, 114, 116);
         }
         .Header{
-            min-height: 100px;
-        }
-        .Top{
-            min-height: 100px;
-        }
-        .Main{
-            min-height: 100px;
-        }
-        .Bottom{
-            min-height: 100px;
+            min-height: 30px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            background-color: whitesmoke;
         }
         .Header h1{
             display: inline-block;
@@ -30,17 +27,81 @@
         .Header h2{
             display: inline-block;
         }
-        .Top .Profile_Picture{
-            display: inline-block;
+        .Top{
+            min-height: 100px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
         }
-        .Top .Profile_Picture .Me{
+        .Top .MyPicture{
             display: inline-block;
+            width: 425px;
+            height: 225px;
+            vertical-align: top;
         }
         .Top .About_Me{
             display: inline-block;
+            width: 550px;
+            vertical-align: top;
+        }
+        .Main{
+            min-height: 100px;
+            display: flex;
+            justify-content:space-evenly;
+        }
+        .Bottom{
+            min-height: 75px;
+        }
+        .Bottom ul{
+            display: flex;
+            justify-content:center;
+            list-style-type: none;
+        }
+        .Bottom ul li{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .Bottom ul li a{
+            margin:5px;
+        }
+        .Bottom h1{
+            text-align: center;
+        }
+        .Content{
+            width: 300px;
+            vertical-align: top;
+            background-color: teal;
+        }
+        .Content h1,.Content h2{
+            background-color: rgb(173, 173, 173);
+        }
+        .Content ul{
+            padding: 22px;
+        }
+        .Content ul li{
+            display: inline-block;
+        }
+        .ContentPic1{
+            width: 290px;
+            height: 150px;
+        }
+        .ContentPic2{
+            width: 40px;
+            height: 40px;
+        }
+        .ContentPic3{
+            width: 20px;
+            height: 20px;
+        }
+        .Content p{
+            min-height: 200px;
+        }
+        section{
+            text-align: center;
         }
     </style>
-</head>
+</head
 <body>
     <div class="container">
         <div class = "Header">
@@ -48,9 +109,7 @@
             <h2>Master of shadows and the internet!</h2>
         </div>
         <div class ="Top">
-            <div class="Profile_Picture">
-                <img class ="Me" src="/CSS/Portfolio/images/photo_of_me.jpg" alt="A photo of me.">
-            </div>
+            <img class ="MyPicture" src="images/photo_of_me.jpg" alt="A photo of me.">
             <div class="About_Me">
                 <h2>About...</h2>
                 <p>Hello! Im an extremely drive and creative Full Stack Developer who is currently open for career opportunities as a front-end or back-end web developer in the Greate Seattle Area.<br><br>I'm a recent graduate of Coding Dojo, a coding school located in Bellevue, WA that teaches 3 full stucks in 3 months. I'm capable of learning new techologies very quickly, and am always looking for opportunities to further expand my skills and grow as a developer</p>
@@ -58,10 +117,77 @@
             </div>
         </div>
         <div class="Main">
+            <div class ="Content">
+                <h1>La Mode</h1>
+                <img class="ContentPic1" src="images/lamode.png" alt="La Mode">
+                <p>La mode is an Ecommerce website for designers to market various clothing products. User are able to view the available garments, select their desired quantity and compile a shopping cart for making a final purchase.</p>
+                <h2>Technologies:</h2>
+                <ul>
+                    <li><img class="ContentPic2" src="images/mysql.png" alt="MySQL"></li>
+                    <li><img class="ContentPic2" src="images/mysql.png" alt="MySQL"></li>
+                    <li><img class="ContentPic2" src="images/mysql.png" alt="MySQL"></li>
+                    <li><img class="ContentPic2" src="images/mysql.png" alt="MySQL"></li>
+                    <li><img class="ContentPic2" src="images/mysql.png" alt="MySQL"></li>
+                    <li><img class="ContentPic2" src="images/mysql.png" alt="MySQL"></li>
+                    <li><img class="ContentPic2" src="images/mysql.png" alt="MySQL"></li>
+                </ul>
+                <section>La Mode</section>
+            </div>
 
+            <div class ="Content">
+                <h1>Family Contacts</h1>
+                <img class="ContentPic1" src="images/familycontacts.png" alt="Family contact">
+                <p>Family Contacts is a free application for managing, sharing, and visualizing your family relationships for both extended and immediate family. As an essential feature of the projects, your log-in information determines who you can see and reveals how people relate to you.</p>
+                <h2>Technologies:</h2>
+                <ul>
+                    <li><img class="ContentPic2" src="images/mysql.png" alt="MySQL"></li>
+                    <li><img class="ContentPic2" src="images/mysql.png" alt="MySQL"></li>
+                    <li><img class="ContentPic2" src="images/mysql.png" alt="MySQL"></li>
+                    <li><img class="ContentPic2" src="images/mysql.png" alt="MySQL"></li>
+                    <li><img class="ContentPic2" src="images/mysql.png" alt="MySQL"></li>
+                    <li><img class="ContentPic2" src="images/mysql.png" alt="MySQL"></li>
+                    <li><img class="ContentPic2" src="images/mysql.png" alt="MySQL"></li>
+                </ul>
+                <section>Family Contacts</section>
+            </div>
+
+            <div class ="Content">
+                <h1>fiveEleven</h1>
+                <img class="ContentPic1" src="images/fiveEleven.png" alt="La Mode">
+                <p>Five Eleven is a data visualization project built on the Python software stack. The application transforms the developer job-hunt into a more visual, user-friendly experience. Based on location, technology popularity, andother vast data sets, users may visualize the varying sizes and concentrations of the junior developer job market across the nation.</p>
+                <h2>Technologies:</h2>
+                <ul>
+                    <li><img class="ContentPic2" src="images/mysql.png" alt="MySQL"></li>
+                    <li><img class="ContentPic2" src="images/mysql.png" alt="MySQL"></li>
+                    <li><img class="ContentPic2" src="images/mysql.png" alt="MySQL"></li>
+                    <li><img class="ContentPic2" src="images/mysql.png" alt="MySQL"></li>
+                    <li><img class="ContentPic2" src="images/mysql.png" alt="MySQL"></li>
+                    <li><img class="ContentPic2" src="images/mysql.png" alt="MySQL"></li>
+                    <li><img class="ContentPic2" src="images/mysql.png" alt="MySQL"></li>
+                </ul>
+                <section>fiveEleven</section>
+            </div>
         </div>
         <div class="Bottom">
-
+            <h1>jdoe@gmails.com | 206-555-1212</h1>
+            <ul>
+                <li>
+                    <img class="ContentPic3" src="images/mysql.png" alt="MySQL">
+                    <a href="">jaynedev</a>
+                </li>
+                <li>
+                    <img class="ContentPic3" src="images/mysql.png" alt="MySQL">
+                    <a href="">jayne-doe</a>
+                </li>
+                <li>
+                    <img class="ContentPic3" src="images/mysql.png" alt="MySQL">
+                    <a href="">jdtweets</a>
+                </li>
+                <li>
+                    <img class="ContentPic3" src="images/mysql.png" alt="MySQL">
+                    <a href="">jaynedev</a>
+                </li>
+            </ul>
         </div>
     </div>
 </body>
