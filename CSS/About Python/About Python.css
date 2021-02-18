@@ -1,0 +1,166 @@
+
+*{
+/* reset CSS */
+    margin: 0px 0px;
+    padding: 0px 0px;
+}
+/* Canvas CSS*/
+.Canvas{
+    width: 970px;
+    min-height: 1020px;
+    margin: 0px auto;
+    background-color: rgb(13, 89, 133);
+    background-image: linear-gradient(to bottom,rgb(13, 89, 133),rgb(13, 89, 133),rgb(13, 89, 133),rgb(13, 89, 133),rgb(13, 89, 133),rgb(13, 89, 133),rgb(13, 89, 133),rgb(13, 89, 133),rgb(13, 89, 133),rgb(18, 121, 180));
+    /*outline: 2px solid black; */
+}
+.Canvas *{
+    /*outline: 2px solid grey;*/ 
+    color: rgba(255, 255, 255, 0.767);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.Canvas .Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* Header CSS*/
+.Header .Logo{
+    width: 500px;
+}
+.Header .SearchBox_Container{
+    margin: 0px 30px 0px 0px;
+}
+.Header .SearchBox{
+    padding: 13px;
+    margin: 3px;    
+    background-color: rgb(83, 83, 83);
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px rgb(68, 68, 68);
+}
+.Header .SearchBox_Container .SearchEntry{
+    min-height: 25px;
+}
+.Header .SearchBox_Container .SearchButton {
+    background-color: rgb(13, 89, 133);
+    padding: 5px;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+}
+.spam{
+    color: yellowgreen;
+}
+/* Navigation CSS*/
+.Navigation ul{
+    list-style-type: none;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 0px 100px;
+}
+.Navigation{
+    background-color: rgb(17, 123, 185);
+}
+.Navigation ul li{
+    font-size: 25px;
+    padding: 12.5px 0px;
+}
+/* Content CSS*/
+.Content{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    text-align: center;
+}
+.Content ul{
+    list-style-type: none;
+    margin: 0px 0px 0px 100px;
+    width: 160px;
+    text-decoration-line: underline;
+}  
+.Content ul li{
+    margin: 10px;
+}
+.Content .Description{
+    width: 630px;
+    margin: 30px auto;
+}
+.Content .Description ul{
+    margin: 0px auto;
+    width: 400px;
+    text-decoration-line:none;
+    font-size: 20px;
+}
+.Content .Description ul li{
+    margin: 10px;
+    color: rgba(226, 226, 34, 0.856);
+}
+/* Additional_Info CSS*/
+.Additional_Info{
+    display: flex;
+    text-align: center;
+    background-color: white;
+    vertical-align: top;
+}
+.Additional_Info *{
+    color: black;
+}
+.Additional_Info h1{
+    font-size: 25px;
+    font-weight: lighter;
+}
+/* Getting_Started CSS*/
+.Additional_Info .Getting_Started{
+    vertical-align: top;
+    width: 450px;
+    padding: 2.5px;
+    margin: 10px;
+    border-top: 5px solid cornflowerblue;
+}
+.Additional_Info .Getting_Started *{
+    padding: 2.5px;
+    margin: 2.5px;
+}
+.Additional_Info .Getting_Started ul{
+    list-style-type: square;
+}
+.Additional_Info .Getting_Started ul li{
+    color: cornflowerblue;
+}
+/* Applications CSS*/
+.Additional_Info .Applications{
+    vertical-align: top;
+    width: 450px;
+    padding: 2.5px;
+    margin: 10px;
+    border-top: 5px solid cornflowerblue;
+}
+.Additional_Info .Applications *{
+    padding: 2.5px;
+    margin: 2.5px;
+}
+.Additional_Info .Applications ul{
+    list-style-type: square;
+}
+.Additional_Info .Applications ul li{
+    color: cornflowerblue;
+}
+.Additional_Info .Applications spam1{
+    color: cornflowerblue;
+}
+/* Footer CSS*/
+.Footer *{
+    margin: 0px auto;
+    text-align: center;
+}
+.Footer ul{
+    list-style-type: none;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    margin: 25px 100px ;
+    padding: 5px;
+}
+.Footer p{
+    padding: 0px 0px 10px 0px;
+}
+/* Navigation CSS*/
