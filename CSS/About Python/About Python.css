@@ -9,7 +9,7 @@
     width: 970px;
     min-height: 1020px;
     margin: 0px auto;
-    background-color: rgb(13, 89, 133);
+    background-color: #245076;
     background-image: linear-gradient(to bottom,rgb(13, 89, 133),rgb(13, 89, 133),rgb(13, 89, 133),rgb(13, 89, 133),rgb(13, 89, 133),rgb(13, 89, 133),rgb(13, 89, 133),rgb(13, 89, 133),rgb(13, 89, 133),rgb(18, 121, 180));
     /*outline: 2px solid black; */
 }
@@ -46,8 +46,13 @@
     border: 2px solid #ddd;
     border-radius: 4px;
 }
-.spam{
-    color: yellowgreen;
+.Header .SearchBox_Container spam{
+    color: rgb(161,155,78);
+    text-decoration-line: underline;
+}
+.Header .SearchBox_Container spam2{
+    color: rgb(161,155,78);
+    text-decoration-line: underline;
 }
 /* Navigation CSS*/
 .Navigation ul{
@@ -55,14 +60,16 @@
     display: flex;
     justify-content:space-between;
     align-items: center;
+    text-decoration-line: none;
     margin: 0px 100px;
 }
 .Navigation{
-    background-color: rgb(17, 123, 185);
+    background-color: rgb(72,126,173);
 }
 .Navigation ul li{
-    font-size: 25px;
+    font-size: 20px;
     padding: 12.5px 0px;
+    text-decoration-line: none;
 }
 /* Content CSS*/
 .Content{
@@ -92,7 +99,7 @@
 }
 .Content .Description ul li{
     margin: 10px;
-    color: rgba(226, 226, 34, 0.856);
+    color: rgb(161,155,78);
 }
 /* Additional_Info CSS*/
 .Additional_Info{
