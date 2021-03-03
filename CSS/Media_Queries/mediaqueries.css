@@ -1,0 +1,26 @@
+.Canvas{
+    width: 970px;
+    min-height: 300px;
+    outline: 2px solid black;
+}
+.Canvas *{
+    width:225px;
+    height:200px;
+}
+
+@media only screen and (max-width:480px){
+    .navbtn1,.navbtn2,.navbtn3,.navbtn4{
+        background-color: blue;
+        display: block;
+    }
+}
+@media only screen and (min-width:481px){
+    .navbtn1,.navbtn2,.navbtn3,.navbtn4{
+        background-color: yellow;
+    }
+}
+@media only screen and (min-width:970px){
+    .navbtn1,.navbtn2,.navbtn3,.navbtn4{
+        background-color: red;
+    }
+}

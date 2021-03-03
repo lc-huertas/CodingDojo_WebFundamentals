@@ -35,7 +35,7 @@
     min-height: 100px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
 }
 .Top .MyPicture{
     display: inline-block;
@@ -131,7 +131,6 @@ button{
     display: block;
     width: fit-content;
     text-align: center;
-    vertical-align: top;
     background-color: rgb(21, 114, 70);
     color: white;
     border-radius: 10px;
